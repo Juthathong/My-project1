@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>Form</title>
+    <style>
+        form{
+            margin-left: 500px;
+            margin-right: 500px;
+            background-color: whitesmoke;
+            padding: 30px 20px 20px 20px;
+            border-radius: 10px 10px 10px 10px;
+        }
+    </style>
+{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Reservation Form</h2> 
+<form method="post" action="form">
+    {% csrf_token %}
+    <div class="form-group">
+        <label for="name">Name :</label>
+        <input type="text" name="name" class="form-control">
+
+    </div>
+    <div class="form-group mb-3" >
+        <label for="tel">Tel No. :</label>
+        <input type="number" name="age" class="form-control">
+
+    </div>
+    <div class="form-group mb-3" >
+        <label for="email">Email :</label>
+        <input type="email" name="email" class="form-control">
+
+    </div>
+    <input type="submit" value="Save" class="btn btn-success" style="margin-bottom: 300px;">
+</form>
+   
+{% endblock %}   

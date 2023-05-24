@@ -1,0 +1,107 @@
+{%extends "base.html"%}
+
+{%block title%}
+    <title> accommodation</title>
+    <style>
+        .content{
+            background-image:url('https://thumbs.dreamstime.com/b/wallpaper-batik-background-pattern-ornament-hd-wallpaper-batik-background-pattern-ornament-design-fabric-color-full-hd-wallpapers-162187085.jpg');
+            background-repeat: repeat;
+        }
+        img{
+            padding: 0px 150px 10px 150px;
+            height: 650px;
+        }
+        img:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        .container{
+            text-align: left;
+            padding-left: 190px;
+            font-family: 'Merriweather', serif;
+        }
+        .box{
+            background-color: white;
+        }
+    </style>
+    
+{%endblock%}
+{% block content%}
+<div class="content">
+    <h3 style="text-align: center;padding: 0.4em 0.5em;font-family: La Gioconda;">Comfort Single Room</h3>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.thecolonyhotelbali.com/wp-content/uploads/2016/07/deluxe-room-010.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.thecolonyhotelbali.com/wp-content/uploads/2016/07/Grand-Deluxe-Bathroom-003-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.thecolonyhotelbali.com/wp-content/uploads/2016/07/Grand-Deluxe-King-Bed-001-1.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+     <div class="container box"><b>This completely renovated and soundproofed room, all exterior with furnished balcony and pool view, air conditioning hot / cold and free WI FI.</b><br>
+
+        <b>Surface of the room:</b> 20 m²<br>
+        <b>Bed options:</b> 2 single beds (105 cm * 190 cm) or 1 extra-large double bed (210 cm * 190 cm)<br>
+        <b>Room facilities:</b> Furnished balcony with swimming pool views, telephone, flat screen TV with satellite channels, hot/cold air conditioned, desk, <br>wood floor, wardrobe with free safe, mini fridge and kettle with cups. Hair dryer, welcome toiletries, gel / shampoo dispenser and bathtub.<br>
+        <b><small>Non-smoking room</small></b>
+    </div>  
+    <h3 style="text-align: center;padding: 0.4em 0.5em;font-family: La Gioconda;">Comfort Double Room</h3>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://www.thecolonyhotelbali.com/wp-content/uploads/2016/08/deluxe-room-009.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.thecolonyhotelbali.com/wp-content/uploads/2016/08/deluxe-room-008.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.thecolonyhotelbali.com/wp-content/uploads/2016/07/Grand-Deluxe-Twin-Bed-002.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <div class="container box">
+            <b>This completely renovated and soundproofed room, all exterior with furnished balcony and pool view, air conditioning hot / cold and free WI FI.</b><br>
+            <b>Surface of the room:</b> 20 m²<br>
+            <b>Bed options:</b> 2 single beds (105 cm * 190 cm) or 1 extra-large double bed (210 cm * 190 cm)<br>
+            <b>Room facilities:</b> Furnished balcony with swimming pool views, telephone, flat screen TV with satellite channels, hot/cold air conditioned, desk, wood floor,<br> wardrobe with free safe, mini fridge and kettle with cups. Hair dryer, welcome toiletries, gel / shampoo dispenser and bathtub.<br>
+            <b><small>Non-smoking room</small></b>
+        </div>   
+</div>
+
+{%endblock%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+       
